@@ -1,0 +1,29 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+}
+
+video, canvas {
+	display: block;
+	width: 100% !important;
+	height: auto !important;
+}
+
+#inst {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1000;
+	padding: 30px;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+}
